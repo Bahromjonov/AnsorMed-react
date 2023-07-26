@@ -7,7 +7,7 @@ const Header = () => {
             <div className='flex items-center justify-between py-6'>
                 <a className='flex items-center ' href='#'>
                     <img className=' w-12 h-12 mr-4 text-black text-3xl font-semibold' src="./img/footer-logatip.png" alt="logotip" />
-                    <h1>AnsorMed</h1>
+                    <h1 className='text-2xl font-semibold hover:text-red-500 duration-500'>AnsorMed</h1>
                 </a>
                 {/* Heder Nav */}
                 <ul className='flex items-center space-x-8'>
