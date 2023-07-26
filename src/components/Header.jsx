@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className='w-full mx-auto container px-5'>
+        <header className='containerr '>
             {/* Logo */}
             <div className='flex items-center justify-between py-6'>
                 <a className='flex items-center ' href='#'>
@@ -27,7 +27,8 @@ const Header = () => {
                         <a href="#">BLOG</a>
                     </li>
                 </ul>
-                <button className='bg-[#DE2E54] py-3 px-6 rounded-lg border-red  text-white hover:bg-white hover:text-black hover:border-red-500'>QABULGA YOZILISH</button>
+                {/* Header button */}
+                <button className='bg-[#DE2E54] py-3  px-6 rounded-lg border-red border-2 text-lg text-white hover:bg-white  hover:border-red-500 hover:text-red-500'>QABULGA YOZILISH</button>
             </div>
         </header>
     )
