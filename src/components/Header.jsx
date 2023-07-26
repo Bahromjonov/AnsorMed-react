@@ -28,7 +28,7 @@ const Header = () => {
                     </li>
                 </ul>
                 {/* Header button */}
-                <button className='bg-[#DE2E54] py-3  px-6 rounded-lg border-red border-2 text-lg text-white hover:bg-white  hover:border-red-500 hover:text-red-500'>QABULGA YOZILISH</button>
+                <button className='bg-[#DE2E54] py-3 duration-500  px-6 rounded-lg border-red border-2 text-lg text-white hover:bg-white  hover:border-red-500 hover:text-red-500'>QABULGA YOZILISH</button>
             </div>
         </header>
     )

@@ -15,3 +15,22 @@ box-sizing: border-box;
     padding-left: 20px;
     padding-right: 20px;
 }
+.xizmatlar-container{
+    width: 100%;
+    max-width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@100;200;300;400;500;600;700&display=swap);
+
+.condensed {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
